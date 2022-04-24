@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -31,7 +32,7 @@ namespace Store.productAPI
 
             services.AddDbContext<MySQLContext>(options => options.
             UseMySql(connection,
-            new MySqlServerVersion(new Version(8,0,5))));
+            new MySqlServerVersion(new Version(5, 0, 4))));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p0lj9Od79zbyJHTZ20sEMwuu6F43tlyKGiMxXLMM3E9Z+h7UWW7Z7nJ76VYtP4w7CiGTjWM3iLVm9CH2xVcDQg==",
+  "dgSpecHash": "ysDe3lGQrMUqjHm2aEdyLhGAcohq/2x4kzFnbud2pUiI99srW48pgowV3y9efQ8qpeT6LlkonrCpPB5TtvRngg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\Store.Web.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tiago\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.15\\microsoft.aspnetcore.mvc.razor.extensions.5.0.15.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.15\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.15.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.15\\microsoft.aspnetcore.razor.language.5.0.15.nupkg.sha512",
