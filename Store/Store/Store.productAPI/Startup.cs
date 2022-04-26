@@ -29,12 +29,13 @@ namespace Store.productAPI
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["MySqlConnection : MySqlConnectionString"];
-
+            
             services.AddDbContext<MySQLContext>(options => options.
             UseMySql(connection,
             new MySqlServerVersion(new Version(5, 0, 4))));
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Store.productAPI", Version = "v1" });

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Store.productAPI.Model.Context
 {
@@ -9,5 +10,6 @@ namespace Store.productAPI.Model.Context
             : base(options) { }
 
         public DbSet<Product> Products { get; set; }
+
     }
 }
