@@ -5,7 +5,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Store.productAPI.Model.Context;
-
+using AutoMapper;
+using Store.productAPI.Config;
+using System;
+/*
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,6 +19,9 @@ builder.Services.AddDbContext<MySQLContext>(x => x.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.Parse("8.0.28.0")
     ));
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -36,7 +42,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
+*/
 
 namespace Store.productAPI
 {

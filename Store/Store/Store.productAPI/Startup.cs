@@ -27,10 +27,10 @@ namespace Store.productAPI
         {
             var connection = Configuration["MySqlConnection : MySqlConnectionString"];
             
-            services.AddDbContext<MySQLContext>(options => options.
-            UseMySql(connection,
-            new MySqlServerVersion(new Version(5, 0, 4))));
-
+            services.AddDbContext<MySQLContext>(x => x.UseMySql(
+                Configuration.GetConnectionString("DefaultConnection"),
+                ServerVersion.Parse("8.0.28.0")));
+            
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

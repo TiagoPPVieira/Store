@@ -1,0 +1,326 @@
+﻿++Solution 'Store' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:Store.sln
+++Services
+i:{00000000-0000-0000-0000-000000000000}:Services
+++Store.productAPI
+i:{dfe37582-8370-4504-b94e-f15cb6b808e4}:Store.productAPI
+++Connected Services 
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>714
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>715
+++Dependencies
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>713
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>712
+++Properties
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\properties\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\properties\
+++Config
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\config\
+++MappingConfig.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\config\mappingconfig.cs
+++Controllers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\controllers\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\controllers\
+++ProductController.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\controllers\productcontroller.cs
+++Data
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\
+++ValueObjects
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\valueobjects\
+++ProductVO.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\valueobjects\productvo.cs
+++Migrations
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\
+++20220426232657_AddProductDataTableOnDB.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220426232657_addproductdatatableondb.cs
+++MySQLContextModelSnapshot.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\mysqlcontextmodelsnapshot.cs
+++Model
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\
+++Base
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\
+++BaseEntity.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\baseentity.cs
+++keyAttribute.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\keyattribute.cs
+++Context
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\context\
+++MySQLContext.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\context\mysqlcontext.cs
+++Product.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\product.cs
+++Repository
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\repository\
+++IProductRepository.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\repository\iproductrepository.cs
+++ProductRepository.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\repository\productrepository.cs
+++appsettings.json
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\appsettings.json
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\appsettings.json
+++appsettings.Development.json
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\appsettings.development.json
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\appsettings.development.json
+++Program.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\program.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\program.cs
+++Startup.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\startup.cs
+++No service dependencies discovered
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>716
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>717
+++Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:analyzers
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:analyzers
+++Frameworks
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:frameworks
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:frameworks
+++Packages
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:packages
+++launchSettings.json
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\properties\launchsettings.json
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\properties\launchsettings.json
+++20220426232657_AddProductDataTableOnDB.Designer.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220426232657_addproductdatatableondb.designer.cs
+++Microsoft.AspNetCore.Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.0-preview.3.22175.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0-preview.3.22175.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\microsoft.aspnetcore.app
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\microsoft.netcore.app
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\microsoft.netcore.app
+++AutoMapper (11.0.0)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>742
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>736
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.4)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>743
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>735
+++Microsoft.EntityFrameworkCore.Tools (7.0.0-preview.3.22175.1)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>744
+++Microsoft.Extensions.Configuration.FileExtensions (7.0.0-preview.3.22175.4)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>740
+++Microsoft.Extensions.Configuration.Json (6.0.0)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>741
+++Pomelo.EntityFrameworkCore.MySql (6.0.1)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>745
+++Swashbuckle.AspNetCore (6.1.5)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>737
+++Swashbuckle.AspNetCore.Annotations (6.1.5)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>738
+++Swashbuckle.AspNetCore.SwaggerUI (6.1.5)
+++System.Configuration.ConfigurationManager (6.0.2-mauipre.1.22102.15)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>739
+++FrontEnd
+i:{00000000-0000-0000-0000-000000000000}:FrontEnd
+++Store.Web
+i:{a67e6dcd-1fab-4af3-a0ab-f53956c23d0d}:Store.Web
+++wwwroot
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\
+++Models
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\
+++Views
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\
+++css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\css\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\js\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\
+++favicon.ico
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\favicon.ico
+++HomeController.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\controllers\homecontroller.cs
+++ErrorViewModel.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\errorviewmodel.cs
+++Home
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\
+++Shared
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\
+++_ViewImports.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\_viewstart.cshtml
+++site.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\css\site.css
+++site.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\js\site.js
+++bootstrap
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\
+++jquery
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\
+++jquery-validation
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\
+++Index.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\index.cshtml
+++Privacy.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\error.cshtml
+++dist
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\license.txt
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++_Layout.cshtml.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml.css
+++jquery.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Microsoft.AspNetCore.StaticFiles (2.2.0)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>798
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>799
+++Swashbuckle.AspNetCore.SwaggerUI (6.3.1)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>800
