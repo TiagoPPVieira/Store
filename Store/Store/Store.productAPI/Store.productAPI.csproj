@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Store.Web\Store.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Model\Product.cs">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>

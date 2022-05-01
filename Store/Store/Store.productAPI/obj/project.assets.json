@@ -1053,6 +1053,19 @@
             "rid": "win"
           }
         }
+      },
+      "Store.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Store.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Web.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2886,6 +2899,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Store.Web/1.0.0": {
+      "type": "project",
+      "path": "../Store.Web/Store.Web.csproj",
+      "msbuildProject": "../Store.Web/Store.Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2899,6 +2917,7 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 7.0.0-preview.3.22175.4",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.1",
+      "Store.Web >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.1.5",
       "Swashbuckle.AspNetCore.Annotations >= 6.1.5",
       "Swashbuckle.AspNetCore.Swagger >= 6.3.1",
@@ -2940,7 +2959,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\Store.Web.csproj": {
+              "projectPath": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\Store.Web.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

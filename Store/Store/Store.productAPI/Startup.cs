@@ -9,6 +9,8 @@ using Microsoft.OpenApi.Models;
 using Store.productAPI.Config;
 using Store.productAPI.Model.Context;
 using Store.productAPI.Repository;
+using Store.Web.Services.IServices;
+using Store.Web.Services;
 using System;
 
 namespace Store.productAPI
@@ -38,6 +40,10 @@ namespace Store.productAPI
             services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
+
+            services.AddHttpClient<IProductService, ProductService>(
+                c => c.BaseAddress = new Uri(Configuration["ServiceURLs:ProductAPI"])
+                );
 
             services.AddSwaggerGen(c =>
             {
