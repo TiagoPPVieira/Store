@@ -1,6 +1,10 @@
 ﻿using Store.Web.Models;
 using Store.Web.Services.IServices;
 using Store.Web.Services.Utils;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Store.Web.Services
 {
@@ -13,6 +17,7 @@ namespace Store.Web.Services
         {
             _client = client ?? throw new ArgumentNullException(nameof(client));
         }
+
         public async Task<IEnumerable<ProductModel>> FindAllProducts()
         {
             var response = await _client.GetAsync(BasePath);
@@ -24,6 +29,7 @@ namespace Store.Web.Services
             var response = await _client.GetAsync($"{BasePath}/{id}");
             return await response.ReadContentAs<ProductModel>();
         }
+
         public async Task<ProductModel> CreateProduct(ProductModel model)
         {
             var response = await _client.PostAsJson(BasePath, model);
@@ -38,6 +44,7 @@ namespace Store.Web.Services
                 return await response.ReadContentAs<ProductModel>();
             else throw new Exception("Something went wrong when calling API");
         }
+
         public async Task<bool> DeleteProductById(long id)
         {
             var response = await _client.DeleteAsync($"{BasePath}/{id}");
@@ -45,6 +52,5 @@ namespace Store.Web.Services
                 return await response.ReadContentAs<bool>();
             else throw new Exception("Something went wrong when calling API");
         }
-        
     }
 }

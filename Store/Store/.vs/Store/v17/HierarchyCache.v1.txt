@@ -2,14 +2,17 @@
 i:{00000000-0000-0000-0000-000000000000}:Store.sln
 ++Services
 i:{00000000-0000-0000-0000-000000000000}:Services
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\
 ++Store.productAPI
 i:{dfe37582-8370-4504-b94e-f15cb6b808e4}:Store.productAPI
 ++Connected Services 
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>727
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>726
-++Dependencies
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:>725
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>724
+++SQL Server Database (ConnectionStrings:DefaultConnection)
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>776
+++Dependencies
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>722
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>723
 ++Properties
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\properties\
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\properties\
@@ -20,12 +23,17 @@ i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\controllers\
 ++ProductController.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\controllers\productcontroller.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\controllers\productcontroller.cs
 ++Data
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\
 ++Migrations
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\
 ++20220426232657_AddProductDataTableOnDB.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220426232657_addproductdatatableondb.cs
+++20220426232657_AddProductDataTableOnDB.Designer.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220426232657_addproductdatatableondb.designer.cs
+++20220430230229_SeedProductDataTable.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220430230229_seedproductdatatable.cs
 ++MySQLContextModelSnapshot.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\mysqlcontextmodelsnapshot.cs
 ++Model
@@ -34,8 +42,6 @@ i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\sto
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\
 ++Context
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\context\
-++MySQLContext.cs
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\context\mysqlcontext.cs
 ++Product.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\product.cs
 ++Repository
@@ -52,9 +58,8 @@ i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\program.cs
 ++Startup.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\startup.cs
-++No service dependencies discovered
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>729
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>728
+++SQL Server Database dependency with connectionId 'ConnectionStrings:DefaultConnection' is detected
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>777
 ++Analyzers
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:analyzers
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:analyzers
@@ -63,6 +68,8 @@ i:{23879b52-fe34-4861-9261-997a0c58cebb}:frameworks
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:frameworks
 ++Packages
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:packages
+++Projects
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:projects
 ++launchSettings.json
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\properties\launchsettings.json
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\properties\launchsettings.json
@@ -70,12 +77,16 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\config\mappingconfig.cs
 ++ValueObjects
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\valueobjects\
-++20220426232657_AddProductDataTableOnDB.Designer.cs
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220426232657_addproductdatatableondb.designer.cs
+++ProductVO.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\valueobjects\productvo.cs
+++20220430230229_SeedProductDataTable.Designer.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\migrations\20220430230229_seedproductdatatable.designer.cs
 ++BaseEntity.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\baseentity.cs
 ++keyAttribute.cs
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\base\keyattribute.cs
+++MySQLContext.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\model\context\mysqlcontext.cs
 ++appsettings.Development.json
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\appsettings.development.json
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\appsettings.development.json
@@ -104,9 +115,9 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdk
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.0-preview.3.22175.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0-preview.3.22175.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
@@ -121,48 +132,49 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\microsoft.netcore.app
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\microsoft.netcore.app
 ++AutoMapper (11.0.0)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>771
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>754
 ++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>763
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>746
 ++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.4)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>772
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>755
 ++Microsoft.AspNetCore.StaticFiles (2.2.0)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>765
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>748
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>762
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>745
 ++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>776
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>756
 ++Microsoft.Extensions.Configuration.FileExtensions (7.0.0-preview.3.22175.4)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>769
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>752
 ++Microsoft.Extensions.Configuration.Json (6.0.0)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>770
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>753
 ++Pomelo.EntityFrameworkCore.MySql (6.0.1)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>774
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>757
 ++Swashbuckle.AspNetCore (6.1.5)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>764
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>747
 ++Swashbuckle.AspNetCore.Annotations (6.1.5)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>766
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>749
 ++Swashbuckle.AspNetCore.Swagger (6.3.1)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>767
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>750
 ++Swashbuckle.AspNetCore.SwaggerUI (6.3.1)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>775
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>758
 ++System.Configuration.ConfigurationManager (6.0.2-mauipre.1.22102.15)
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:>768
-++ProductVO.cs
-i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.productapi\data\valueobjects\productvo.cs
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:>751
+++Store.Web
+i:{23879b52-fe34-4861-9261-997a0c58cebb}:c:\users\tiago\source\microservices\store\store\store.web\bin\debug\net6.0\store.web.dll
+i:{a67e6dcd-1fab-4af3-a0ab-f53956c23d0d}:Store.Web
 ++FrontEnd
 i:{00000000-0000-0000-0000-000000000000}:FrontEnd
-++Store.Web
-i:{a67e6dcd-1fab-4af3-a0ab-f53956c23d0d}:Store.Web
 ++wwwroot
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\
-++Models
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\
-++Views
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\
 ++css
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\css\
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\css\
+++Images
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\images\
+++favicon.png
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\images\favicon.png
+++geek_shopping.png
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\images\geek_shopping.png
 ++js
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\js\
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\
@@ -172,16 +184,32 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\favicon.ico
 ++HomeController.cs
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\controllers\homecontroller.cs
-++ErrorViewModel.cs
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\errorviewmodel.cs
+++Models
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\
+++IServices
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\iservices\
+++Utils
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\utils\
+++ProductService.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\productservice.cs
+++Views
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\
 ++Home
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\
 ++Shared
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\
+++_Layout.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\error.cshtml
 ++_ViewImports.cshtml
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\_viewimports.cshtml
 ++_ViewStart.cshtml
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\_viewstart.cshtml
+++No service dependencies discovered
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:>726
 ++site.css
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\css\site.css
 ++site.js
@@ -194,16 +222,20 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\
 ++jquery-validation-unobtrusive
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\
+++ErrorViewModel.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\errorviewmodel.cs
+++ProductModel.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\models\productmodel.cs
+++IProductService.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\iservices\iproductservice.cs
+++HttpClientExtensions.cs
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\services\utils\httpclientextensions.cs
 ++Index.cshtml
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\index.cshtml
 ++Privacy.cshtml
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\home\privacy.cshtml
-++_Layout.cshtml
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_validationscriptspartial.cshtml
-++Error.cshtml
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\error.cshtml
+++_Layout.cshtml.css
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml.css
 ++dist
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\
@@ -217,8 +249,6 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation\license.md
 ++jquery.validate.unobtrusive.js
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++_Layout.cshtml.css
-i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\shared\_layout.cshtml.css
 ++jquery.js
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\jquery\dist\jquery.js
 ++additional-methods.js
@@ -323,3 +353,8 @@ i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\sto
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++bootstrap.esm.min.js.map
 i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++NewFolder
+++Product
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\product\
+++ProductIndex.cshtml
+i:{31a4eba0-0b84-481b-a680-7450d7bc2380}:c:\users\tiago\source\microservices\store\store\store.web\views\product\productindex.cshtml

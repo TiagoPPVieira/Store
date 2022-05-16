@@ -11,6 +11,6 @@ build_property.RootNamespace = Store.productAPI
 build_property.ProjectDir = C:\Users\tiago\source\MicroServices\Store\Store\Store.productAPI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\tiago\source\MicroServices\Store\Store\Store.productAPI
 build_property._RazorSourceGeneratorDebug = 

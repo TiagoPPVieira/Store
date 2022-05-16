@@ -18,7 +18,7 @@ namespace Store.productAPI.Controllers
             _repository = repository
                 ?? throw new ArgumentNullException(nameof(repository));
         }
-        [HttpGet("")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductVO>>> FindAll()
         {
             var product = await _repository.FindAll();
@@ -32,14 +32,14 @@ namespace Store.productAPI.Controllers
             return Ok(product);
         }
         [HttpPost]
-        public async Task<ActionResult<ProductVO>> Create(ProductVO vo)
+        public async Task<ActionResult<ProductVO>> Create([FromBody]ProductVO vo)
         {
             if (vo == null) return BadRequest();
             var product = await _repository.Create(vo);
             return Ok(product);
         }
         [HttpPut]
-        public async Task<ActionResult<ProductVO>> Update(ProductVO vo)
+        public async Task<ActionResult<ProductVO>> Update([FromBody]ProductVO vo)
         {
             if (vo == null) return BadRequest();
             var product = await _repository.Create(vo);

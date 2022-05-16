@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RrExvvnrgzfH1rC1Euowii0NWrK6TbECi1wkYG5IjZ8=",
+  "Hash": "52YUvnYxFncYU0pqTwxDR6WEnOd2iCmHzQmiCnSTOec=",
   "Source": "Store.Web",
   "BasePath": "_content/Store.Web",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\css\\site.css.bak",
+      "SourceId": "Store.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\",
+      "BasePath": "_content/Store.Web",
+      "RelativePath": "css/site.css.bak",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css.bak"
+    },
+    {
       "Identity": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\favicon.ico",
       "SourceId": "Store.Web",
       "SourceType": "Discovered",
@@ -83,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\Images\\favicon.png",
+      "SourceId": "Store.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\",
+      "BasePath": "_content/Store.Web",
+      "RelativePath": "Images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\Images\\geek_shopping.png",
+      "SourceId": "Store.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\",
+      "BasePath": "_content/Store.Web",
+      "RelativePath": "Images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\geek_shopping.png"
     },
     {
       "Identity": "C:\\Users\\tiago\\source\\MicroServices\\Store\\Store\\Store.Web\\wwwroot\\js\\site.js",

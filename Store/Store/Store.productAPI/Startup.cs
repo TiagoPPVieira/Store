@@ -1,10 +1,15 @@
 using AutoMapper;
+using Store.productAPI.Config;
+using Store.productAPI.Model.Context;
+using Store.productAPI.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Store.productAPI.Config;
 using Store.productAPI.Model.Context;
@@ -12,6 +17,9 @@ using Store.productAPI.Repository;
 using Store.Web.Services.IServices;
 using Store.Web.Services;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Store.productAPI
 {
@@ -32,7 +40,7 @@ namespace Store.productAPI
             services.AddDbContext<MySQLContext>(x => x.UseMySql(
                 Configuration.GetConnectionString("DefaultConnection"),
                 ServerVersion.Parse("8.0.28.0")));
-            
+
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -40,14 +48,9 @@ namespace Store.productAPI
             services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
-
-            services.AddHttpClient<IProductService, ProductService>(
-                c => c.BaseAddress = new Uri(Configuration["ServiceURLs:ProductAPI"])
-                );
-
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Store.productAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Store.ProductAPI", Version = "v1" });
             });
         }
 
@@ -58,7 +61,7 @@ namespace Store.productAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Store.productAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Store.ProductAPI v1"));
             }
 
             app.UseRouting();
